@@ -6,10 +6,10 @@ int main()
     temp=n;
     while(n>0)
     {
-        last_digit=n%10;
-        sum=sum+last_digit;
-        product=product*last_digit;
-        n=n/10;
+        last_digit = n % 10;
+        sum = sum + last_digit;
+        product = product * last_digit;
+        n = n / 10;
     }
     if(sum==product)
     {
